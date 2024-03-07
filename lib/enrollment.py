@@ -10,7 +10,7 @@ class Student:
             self._enrollments.append(enrollment)
             course.add_enrollment(enrollment)
         else:
-            raise TypeError("course must be an instance of Course")
+            raise TypeError("course must be an instances of Course")
 
     def get_enrollments(self):
         return self._enrollments.copy()
